@@ -255,49 +255,46 @@ Persian: @IranSeed
 Realm Commands:
 
 !creategroup [name]
-Create a group
+ساختن گروه چدید
 
 !createrealm [name]
 Create a realm
 
 !setname [name]
-Set realm name
+ست کردن نام گروه
 
 !setabout [group_id] [text]
-Set a group's about text
+ست کردن ابوت گروه
 
 !setrules [grupo_id] [text]
-Set a group's rules
+ست کردن قوانین گروه
 
 !lock [grupo_id] [setting]
-Lock a group's setting
+تنظیمات گروه
 
 !unlock [grupo_id] [setting]
 Unock a group's setting
 
 !wholist
-Get a list of members in group/realm
+لیست اعضای گروه
 
 !who
-Get a file of members in group/realm
+لیست اعضای گروه در یک فایل
 
 !type
 Get group type
 
 !kill chat [grupo_id]
-Kick all memebers and delete group
-
+به گا دادن گروه (پاک کردن همه ی اغضا و پاک کردن گروه 
 !kill realm [realm_id]
 Kick all members and delete realm
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-
+افزودن ادمین
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
-
+برداشتن کسی از ادمین بودن
 !list groups
-Get a list of all groups
+لیست گروه های مدیریتی ربات
 
 !list realms
 Get a list of all realms
@@ -327,46 +324,41 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
-
+اخراج کردن از گروه
 !ban [ username|id]
-You can also do it by reply
-
+بن کردن کاربر
 !unban [id]
-You can also do it by reply
+آنبن کردن کاربر
 
 !who
-Members list
+لیست ممبر ها
 
 !modlist
-Moderators list
+لیست ادمین ها
 
 !promote [username]
-Promote someone
+افزودن دستور دهنده به ربات
 
 !demote [username]
 Demote someone
 
 !kickme
-Will kick user
-
+رقتن ربات از گروه
 !about
-Group description
+متن معرفی گروه
 
 !setphoto
-Set and locks group photo
-
+ست کدن اسم گروه
 !setname [name]
-Set group name
-
+ست کردن نام گروه
 !rules
-Group rules
+قوانین گروه
 
 !id
-Return group id or user id
+ای دی عددی
 
 !help
-Get commands list
+لیست دستورات
 
 !lock [member|name|bots|leave] 
 Locks [member|name|bots|leaveing] 
@@ -375,57 +367,40 @@ Locks [member|name|bots|leaveing]
 Unlocks [member|name|bots|leaving]
 
 !set rules [text]
-Set [text] as rules
+ست کردن قوانین گروهules
 
 !set about [text]
-Set [text] as about
+ست کردن معرفی نامه ی گروه
 
 !settings
-Returns group settings
+تنظیمات اعمال شده در گروه
 
 !newlink
-Create/revoke your group link
+ساخت لینک برای گروه
 
 !link
-Returns group link
+لینک گروه
 
 !owner
-Returns group owner id
+دستور دهنده ی ربات
 
 !setowner [id]
-Will set id as owner
+افزودن دستور دهنده
 
 !setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
+ست کردن تغداد پیام های رگباری
 
 !save [value] [text]
-Save [text] as [value]
-
+سیو کردن متن
 !get [value]
 Returns text of [value]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-Returns user id
-
-!log
-Will return group logs
+پاک کردن قوانین ومتن مغرفی
 
 !banlist
-Will return group ban list
-
-» U can use both "/" and "!" 
-
-» Only mods, owner and admin can add bots in group
-
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
+لیست افراد مسدود گروه
+» تهیه و برنامه نویسی شده توسط مهدی اصلانیاز تیم کرییت بات تیم
 
 ]]
   }
